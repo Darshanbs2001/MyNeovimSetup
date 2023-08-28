@@ -1,0 +1,16 @@
+require("darshan.remap")
+require 'nvim-treesitter.install'.compilers = { "Clang" }
+require("darshan.packer")
+require("darshan.comment")
+require("darshan.autopairs")
+require("darshan.options")
+require("darshan.keymaps")
+require("darshan.lsp")
+require("darshan.nvim-tree")
+require("darshan.cmp")
+require("darshan.lspconfig")
+require("darshan.navic")
+--require("darshan.java")
+print("hello from the darshan")
+--require("darshan.lsp")
+--require'lspconfig'.jdtls.setup{ cmd = { 'jdtls' } }

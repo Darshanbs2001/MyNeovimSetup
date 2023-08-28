@@ -1,0 +1,2 @@
+def joking():
+    print("hello")
